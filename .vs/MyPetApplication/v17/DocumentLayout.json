@@ -1,18 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anna.tassinari\\source\\repos\\MyPetApplication\\",
+  "WorkspaceRootPath": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|c:\\users\\anna.tassinari\\source\\repos\\mypetapplication\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|c:\\users\\monia\\desktop\\nuova cartella (2)\\cleanstructure\\domain\\model\\entities\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|solutionrelative:domain\\model\\entities\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|c:\\users\\monia\\desktop\\nuova cartella (2)\\cleanstructure\\domain\\model\\valueobjects\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|solutionrelative:domain\\model\\valueobjects\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|c:\\users\\monia\\desktop\\nuova cartella (2)\\cleanstructure\\domain\\model\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|solutionrelative:domain\\model\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|c:\\users\\monia\\desktop\\nuova cartella (2)\\cleanstructure\\domain\\model\\entities\\veterinaryvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|solutionrelative:domain\\model\\entities\\veterinaryvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|c:\\users\\monia\\desktop\\nuova cartella (2)\\cleanstructure\\domain\\model\\entities\\veterinary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|solutionrelative:domain\\model\\entities\\veterinary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|c:\\users\\monia\\desktop\\nuova cartella (2)\\cleanstructure\\domain\\model\\entities\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|solutionrelative:domain\\model\\entities\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|c:\\users\\monia\\desktop\\nuova cartella (2)\\cleanstructure\\domain\\model\\entities\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|solutionrelative:domain\\model\\entities\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|c:\\users\\monia\\desktop\\nuova cartella (2)\\cleanstructure\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{09426C7B-0E9B-43F5-998C-20591A106BE8}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF781841-3B33-4C4B-A235-0E199780EADA}|TestDomain\\TestDomain.csproj|c:\\users\\anna.tassinari\\source\\repos\\mypetapplication\\testdomain\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF781841-3B33-4C4B-A235-0E199780EADA}|TestDomain\\TestDomain.csproj|c:\\users\\monia\\desktop\\nuova cartella (2)\\cleanstructure\\testdomain\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF781841-3B33-4C4B-A235-0E199780EADA}|TestDomain\\TestDomain.csproj|solutionrelative:testdomain\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anna.tassinari\\source\\repos\\MyPetApplication\\MyPetApplication\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyPetApplication\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anna.tassinari\\source\\repos\\MyPetApplication\\MyPetApplication\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,42 +49,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Phone.cs",
+              "DocumentMoniker": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\ValueObjects\\Phone.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\Phone.cs",
+              "ToolTip": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\ValueObjects\\Phone.cs",
+              "RelativeToolTip": "Domain\\Model\\ValueObjects\\Phone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:51:26.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VeterinaryVisit.cs",
+              "DocumentMoniker": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\Entities\\VeterinaryVisit.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\Entities\\VeterinaryVisit.cs",
+              "ToolTip": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\Entities\\VeterinaryVisit.cs",
+              "RelativeToolTip": "Domain\\Model\\Entities\\VeterinaryVisit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:43:50.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Veterinary.cs",
+              "DocumentMoniker": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\Entities\\Veterinary.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Veterinary.cs",
+              "ToolTip": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\Entities\\Veterinary.cs",
+              "RelativeToolTip": "Domain\\Model\\Entities\\Veterinary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:43:12.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cat.cs",
+              "DocumentMoniker": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\Entities\\Cat.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Cat.cs",
+              "ToolTip": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\Entities\\Cat.cs",
+              "RelativeToolTip": "Domain\\Model\\Entities\\Cat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:42:17.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\Entities\\Dog.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Dog.cs",
+              "ToolTip": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\Entities\\Dog.cs",
+              "RelativeToolTip": "Domain\\Model\\Entities\\Dog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:42:05.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\ValueObjects\\Email.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\Email.cs",
+              "ToolTip": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\ValueObjects\\Email.cs",
+              "RelativeToolTip": "Domain\\Model\\ValueObjects\\Email.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:41:30.37Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Domain",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\source\\repos\\MyPetApplication\\Domain\\Domain.csproj",
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\Entities\\Animal.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Animal.cs",
+              "ToolTip": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Model\\Entities\\Animal.cs",
+              "RelativeToolTip": "Domain\\Model\\Entities\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:40:19.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "C:\\Users\\anna.tassinari\\source\\repos\\MyPetApplication\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\Domain\\Domain.csproj",
               "RelativeToolTip": "Domain\\Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-09-30T09:27:42.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Test1.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\source\\repos\\MyPetApplication\\TestDomain\\Test1.cs",
+              "DocumentMoniker": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\TestDomain\\Test1.cs",
               "RelativeDocumentMoniker": "TestDomain\\Test1.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\source\\repos\\MyPetApplication\\TestDomain\\Test1.cs",
+              "ToolTip": "C:\\Users\\monia\\Desktop\\Nuova cartella (2)\\CleanStructure\\TestDomain\\Test1.cs",
               "RelativeToolTip": "TestDomain\\Test1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:24:35.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T09:24:35.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\source\\repos\\MyPetApplication\\MyPetApplication\\Class1.cs",
-              "RelativeDocumentMoniker": "MyPetApplication\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\anna.tassinari\\source\\repos\\MyPetApplication\\MyPetApplication\\Class1.cs",
               "ToolTip": "C:\\Users\\anna.tassinari\\source\\repos\\MyPetApplication\\MyPetApplication\\Class1.cs",
-              "RelativeToolTip": "MyPetApplication\\Class1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\anna.tassinari\\source\\repos\\MyPetApplication\\MyPetApplication\\Class1.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T09:19:14.774Z"
             }
