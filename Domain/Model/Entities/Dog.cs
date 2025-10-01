@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Model.ValueObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,22 +7,26 @@ using System.Threading.Tasks;
 
 namespace Domain.Model.Entities
 {
-    public class Dog: Animal
+    public class Dog : Animal
     {
-        private string _chewingToy;
-        public string ChewingToy
+        private string? _favouriteChewing;
+        public string? FavouriteChewing
         {
-            get { return _chewingToy; }
+            get { return _favouriteChewing; }
             set
             {
-                if (value != null && string.IsNullOrWhiteSpace(value))
-                    throw new ArgumentException("Non può essere solo spazi bianchi");
-                _chewingToy = value;
+                if (value is not null && string.IsNullOrEmpty(value)) throw new ArgumentException("is empty");
+                _favouriteChewing = value;
             }
         }
-        public Dog(string chewingToy,string name, List<VeterinaryVisit> visits = null) : base(name, visits) 
+
+        public Dog(string name, List<VeterinaryVisit>? visits = null)
+             : base(name, visits) { }
+
+        public Dog(string name, Birthdate birthdate, string breed, string favouriteChewing, List<VeterinaryVisit>? visits = null)
+            : base(name, birthdate, breed, visits)
         {
-            ChewingToy = chewingToy;
+            FavouriteChewing = favouriteChewing;
         }
     }
 }

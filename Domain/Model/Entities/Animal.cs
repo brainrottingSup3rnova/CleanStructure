@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Model.ValueObjects;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,15 +50,17 @@ namespace Domain.Model.Entities
 
         /*
          * readonly protegge il riferimento alla lista, non il contenuto.
-         * La mutabilità dei dati all’interno della lista è ancora
-         * consentita.
+         * La mutabilità dei dati all’interno della lista è ancora 
+         * consentita. 
          * Se fa parte dello stato mettiamo IReadOnlyList nella proprietà
          * Come il val in Kotlin sugli array
          */
-
         private readonly List<VeterinaryVisit> _visitList;
         public IReadOnlyList<VeterinaryVisit> VisitList => _visitList;
 
+        public string? Breed { get; private set; }
+
+        public Birthdate Birthday { get; private set; }
 
         // Costruttore che riceve la lista
         public Animal(string name, List<VeterinaryVisit> visits = null)
@@ -66,10 +69,18 @@ namespace Domain.Model.Entities
             _visitList = visits ?? new List<VeterinaryVisit>();
         }
 
+        public Animal(string name, Birthdate birthdate, string breed, List<VeterinaryVisit>? visits = null)
+            : this(name, visits)
+        {
+            Breed = breed;
+            Birthday = birthdate;
+        }
+
         public void AddVisit(VeterinaryVisit visit)
         {
             if (visit == null) throw new ArgumentNullException(nameof(visit));
-            if (visit.AnimalVisited.Equals(this))
+
+            if (visit.Animal.Equals(this))
                 _visitList.Add(visit);
             else throw new ArgumentException("animal wrong");
         }
@@ -79,7 +90,6 @@ namespace Domain.Model.Entities
         /// </summary>
         /// <param name="obj"></param>
         /// <returns></returns>
-        
         public override bool Equals(object? obj)
         {
             if (obj == null || obj is not Animal) return false;
@@ -91,16 +101,6 @@ namespace Domain.Model.Entities
         public override int GetHashCode()
         {
             return Name.GetHashCode();
-        }
-
-        public VeterinaryVisit ViewLastVisit()
-        { 
-            return _visitList.OrderByDescending(v => v.VisitDate).FirstOrDefault();
-        }
-
-        public List<VeterinaryVisit> ViewAllVisits()
-        {
-            return _visitList.OrderByDescending(v => v.VisitDate).ToList();
         }
     }
 }

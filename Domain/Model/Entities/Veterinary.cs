@@ -9,62 +9,48 @@ namespace Domain.Model.Entities
 {
     public class Veterinary
     {
-        private string _name;
-        public string Name
-        {
-            get { return _name; }
-            set
-            {
-                if (string.IsNullOrWhiteSpace(value))
-                    throw new ArgumentException("Il nome del veterinario non può essere vuoto");
-                _name = value;
-            }
-        }
-        private string _surname;
-        public string Surname
-        {
-            get { return _surname; }
-            set
-            {
-                if (string.IsNullOrWhiteSpace(value))
-                    throw new ArgumentException("Il cognome del veterinario non può essere vuoto");
-                _surname = value;
-            }
-        }
-        private Email _email;
-        public Email Email
-        {
-            get
-            {
-                return _email;
-            }
-            set
-            {
-                if (value == null)
-                    throw new ArgumentNullException("L'email del veterinario non può essere nulla");
-                _email = value;
-            }
-        }
-        private Phone _phoneNumber;
-        public Phone PhoneNumber
-        {
-            get
-            {
-                return _phoneNumber;
-            }
-            set
-            {
-                if (value == null)
-                    throw new ArgumentNullException("Il numero di telefono del veterinario non può essere nullo");
-                _phoneNumber = value;
-            }
-        }
-        public Veterinary(string name, string surname, Email email, Phone phoneNumber)
+        public FullName Name { get; private set; }
+        public Email Email { get; private set; }
+        public Phone Phone { get; private set; }
+        public string Specialization { get; private set; }
+
+        public Veterinary(FullName name, Email email, Phone phone, string specialization)
         {
             Name = name;
-            Surname = surname;
             Email = email;
-            PhoneNumber = phoneNumber;
+            Phone = phone;
+            Specialization = string.IsNullOrWhiteSpace(specialization) ? "General" : specialization;
+            /*
+            if (string.IsNullOrWhiteSpace(specialization))
+                Specialization = "General";
+            else 
+                Specialization = specialization;
+            */
+        }
+
+        public override string ToString() => $"{Name} ({Specialization}) - {Email}";
+
+        /// <summary>
+        /// consideriamo uguali due veterinari se hanno lo stesso fullname 
+        /// (non sarebbe un identificativo efficace perchè posso esistere 
+        /// due veterinari con lo stesso nome e cognome, ma per questo progetto può andar bene)
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+       
+        public override bool Equals(object? obj)
+        {
+            if (obj == null || obj is not Veterinary) return false;
+            Veterinary other = obj as Veterinary;
+
+            //non devo sovrascrivere Equals di Fullname perchè essendo di tipo Fullname ed essendo
+            //un record questi saranno uguali quando hanno valori uguali (e non in base all'indirizzo di memoria)
+            return Name.Equals(other.Name);
+        }
+
+        public override int GetHashCode()
+        {
+            return Name.GetHashCode();
         }
     }
 }

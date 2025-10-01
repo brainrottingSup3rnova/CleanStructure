@@ -6,58 +6,31 @@ using System.Threading.Tasks;
 
 namespace Domain.Model.Entities
 {
+    public enum VisitResults
+    {
+        POSITIVE,
+        NEGATIVE,
+        WAITING,
+        CHECK_NOTES
+    }
     public class VeterinaryVisit
     {
-        Animal _animalVisited;
-        public Animal AnimalVisited
-        {
-            get
-            {
-                return _animalVisited;
-            }
-            set
-            {
-                if (value == null)
-                    throw new ArgumentNullException("L'animale visitato non può essere nullo");
-                _animalVisited = value;
-            }
-        }
+        public Animal Animal { get; private set; }
+        public Veterinary Veterinary { get; private set; }
+        public DateTime Date { get; private set; }
+        public string? Notes { get; private set; }
+        public VisitResults Results { get; private set; }
 
-        Veterinary _veterinary;
-        public Veterinary Veterinary
+        public VeterinaryVisit(Animal animal, Veterinary veterinary, DateTime date, VisitResults result, string? notes = null)
         {
-            get
-            {
-                return _veterinary;
-            }
-            set
-            {
-                if (value == null)
-                    throw new ArgumentNullException("Il veterinario non può essere nullo");
-                _veterinary = value;
-            }
-        }
-
-        DateTime _visitDate;
-        public DateTime VisitDate
-        {
-            get
-            {
-                return _visitDate;
-            }
-            set
-            {
-                if (value > DateTime.Now)
-                    throw new ArgumentException("La data della visita non può essere nel futuro");
-                _visitDate = value;
-            }
-        }
-
-        public VeterinaryVisit(Animal animalVisited, Veterinary veterinary, DateTime visitDate)
-        {
-            AnimalVisited = animalVisited;
+            Animal = animal;
             Veterinary = veterinary;
-            VisitDate = visitDate;
+            Date = date;
+            Results = result;
+            Notes = notes;
         }
+
+        public override string ToString() =>
+            $"{Date.ToShortDateString()} - {Animal.Name} visited by {Veterinary.Name}";
     }
 }

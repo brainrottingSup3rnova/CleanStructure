@@ -8,16 +8,19 @@ namespace Domain.Model.ValueObjects
 {
     public record Phone
     {
-        public string value
-        {
-            get;
-        }
-        //in italia tutti i numeri di telefono iniziano con +39 3..
+        public string Value { get; }
+
         public Phone(string value)
         {
-            if(value.Length > 10 || value.StartsWith("+393") == false)
-                throw new ArgumentException("Numero di telefono non valido");
-            this.value = value;
+            if (string.IsNullOrWhiteSpace(value))
+                throw new ArgumentException("Phone number not valid");
+
+            if (!value.All(char.IsDigit) || value.Length < 7)
+                throw new ArgumentException("Invalid phone number format");
+
+            Value = value;
         }
+
+        public override string ToString() => Value;
     }
 }
